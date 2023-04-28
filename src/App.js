@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Astrologers from './components/Astrologers';
+import Main from './components/Main.js';
+import Testimonial from './components/Testimonial';
+import Chakra from './components/Chakra'
+import UserReview from './components/UserReview';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Main/>
+    <Testimonial/>
+    <Astrologers/>
+    <Chakra/>
+    <UserReview/>
+    <Footer/>
+    </>
+  )
 }
 
 export default App;

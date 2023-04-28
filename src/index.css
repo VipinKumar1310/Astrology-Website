@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Variables */ 
+:root {
+   --black-2 :rgba(0, 0, 0, 1);
+  --cod-gray : Orgba(8, 8, 8, 1);
+  --eerie-black : rgba(32, 32, 32, 1); 
+  --harleguin : rgba(43, 219, 0, 1); 
+  --brown-bramble : rgba(91, 39, 0, 1); 
+  --screamin-green : rgba(92, 228, 73, 1); 
+  --dove-gray :rgba(107, 107, 107, 1); 
+  --peru-tan : rgba(130, 56, 0, 1); 
+  --mountain-mist : rgba(153, 153, 153, 1); 
+  --quick-silver : rgba(164, 164, 164, 0.2); 
+  --fire : rgba(166, 71, 0, 1); 
+  --desert : rgba(172, 98, 29, 1); 
+  --rose-of-sharon : rgba(189, 82, 0, 1);
+  --hot-cinnamon : rgba(216,  112, 34, 1); 
+  --gray-nurse : rgba(232, 232, 232, 1);
+  --desert-sand : rgba(242, 218, 186, 1); 
+  --wild-sand : rgba(244, 244, 244, 1); 
+  --black-haze : rgba(247, 247, 247, 1); 
+  --desert-storm : rgba(248, 248, 248, 1); 
+  --hint-of-red : rgba(249, 249, 249, 1); 
+  --alabaster : rgba(251, 251, 251, 1); 
+  --tan-hide : rgba(252, 157, 84, 1); 
+  --baby-powder : rgba(252, 252, 252, 1); 
+  --coconut: rgba(254, 254, 254, 1);
+   --negroni: rgba(255, 219, 192, 1); 
+   --Sazerac: rgba(255, 239, 227, 1); 
+   --seashell-peach : rgba(255, 245, 238, 1); 
+   --white : rgba(255, 255, 255, 1); 
+   
+   --font-size-xxxs : 10px; 
+   --font-size-xxs : 12px; 
+   --font-size-xs : 13px; 
+   --font-size-s : 14px; 
+   --font-size-m : 16px; 
+   --font-size-l : 18px; 
+   --font-size-xl : 20px; 
+   --font-family-dm_sans : "DM Sans" ;
+   --font-family-poppins : "Poppins";
+   --font-family-roboto : "Roboto"; 
+   --font-family-sansation-bold : "Sansation-Bold";
+  }

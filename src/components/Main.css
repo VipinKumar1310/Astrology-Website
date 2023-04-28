@@ -1,0 +1,212 @@
+.main{ 
+background-color: #A74800; 
+background-blend-mode:overlay;
+background-image: url("../assets/mainbackground.png");  
+ mix-blend-mode: darken;
+ padding-bottom: 2%;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.main-image{
+  display: none;
+}
+
+a, button{
+  cursor: pointer;
+}
+.nav{
+      padding: 10px;
+      position: relative;
+      top: -100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .nav-component{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    color: white;
+
+    position: relative;
+    left: -5%;
+    } 
+    .main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  justify-content: center;
+  padding-bottom: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+    }
+    .main-content-heading{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     /* border: 1px dotted yellow; */
+    }
+    .main-content-heading h1{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 58.4047px;
+      text-align: center;
+      letter-spacing: 0.085em;
+      color: #FDFDFD;
+    }
+    .main-content-heading p {
+    width: 573px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.69%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    }
+    .main-content button{
+      display: flex;
+    flex-direction: row;
+    width: 217.83px;
+    height: 58.82px;
+    background: #D97122;
+    border-radius: 43.0686px;
+    border: none;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .main-footer{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 146px;
+    /* border: 1px solid green; */
+    position: relative;
+    top: -85%;
+    }
+    .main-footer > div {
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 11.92px;
+    
+    width: 129.87px;
+    height: 44px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    }
+    .main-footer > div > h3{
+      width: 90px;
+    height: 39px; 
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #F4F4F4;
+    }
+
+    @media screen and (max-width: 800px) {
+      .main-footer{
+        gap: 40px;
+      }
+      .main-content-heading h1{
+        font-size: 32px;
+        margin-top: 72px;
+      }
+      .main-content-heading p{
+        width: 100%;
+      }
+      .nav-component{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -32px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 290px;
+        font-size: 12px;
+      }
+      .chakra{
+        max-width: 90% !important;
+      }
+      .astrologers-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .astrologer-cell:nth-child(2){
+        margin: 0;
+      }
+      .astrologer-cell:nth-child(5){
+        margin: 0;
+      }
+      .astrologer-cell:nth-child(8){
+        margin: 0;
+      }
+
+      .chakra-main-content, .chakra-leftside-data, .chakra-rightside-data{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+      .chakra-leftside-data > div{
+        width: 90%;
+      }
+      .chakra-rightside-data > div{
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .chakra-image{
+         width: 100%;
+      }
+
+      .user-review-base img{
+        width: 100%;
+      }
+
+      .footer{
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+      }
+
+      .footer .footer-logo, .footer .footer-about, .footer .footer-form {
+        width: auto;
+        text-align: center;
+      }    
+      .footer .footer-about{
+        width: 100%;
+        text-align: center;
+      }    
+    }
+   

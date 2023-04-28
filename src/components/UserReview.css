@@ -1,0 +1,146 @@
+.user-review{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #F2D2BA;
+width: 81.5%;
+margin-right: auto;
+margin-left: auto;
+}
+.review{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-review-base{
+  width: 80%;
+}
+.user-review-header{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+padding: 0px;
+gap: 19px;
+}
+.user-review-header > h2{
+/* font-family: 'Sansation'; */
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 128%;
+
+letter-spacing: 0.085em;
+color: #D97122;
+}
+
+  .user-review-innerblock {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px;
+  }
+  .user-review-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    z-index: 1;
+    /* border: 2px dotted red; */
+
+    position: relative;
+    bottom: -17%;
+  }
+  
+  .ratings-image  {
+    position: relative;
+    top: 10%;
+  }
+  
+  .user-review-text {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   text-align: center;
+   color: #D97122;
+  }
+  
+  .user-review-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-review-details h3{
+    color: #D97122;
+  }
+  .user-review-details img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .user-review-background {
+    margin-right: 20px;
+    scroll-snap-align: center;
+  }
+  .user-review-background-base {
+    background-color: #f0f0f0;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  
+  .user-review-navigation{
+    width: 109%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .prev-button {
+    order: 1;
+    background: #D97122;
+    width: 40px;
+    border-color: #D97122;
+    border: none;
+    position: relative;
+  }
+  .prev-button::before {
+    content: "";
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .next-button {
+    order: 3;
+    background: #D97122;
+    width: 40px;
+    border-color: #D97122;
+    border: none;
+    position: relative;
+  }
+  .next-button::before {
+    content: "";
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  

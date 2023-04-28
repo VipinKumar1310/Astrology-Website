@@ -1,0 +1,33 @@
+.chakra-card {
+    width: 195.56px;
+    height: 55.16px;
+    filter: drop-shadow(0px 0px 4px rgba(169, 82, 16, 0.3));
+    border: 1px solid #A95210;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .chakra-card-image {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-right: 25px;
+  }
+  
+  .chakra-card-image-logo {
+    position: absolute;
+    width: 37.61px;
+    height: 38.36px;
+    left: 4.93px;
+    top: 6.84px;
+    z-index: 100;
+  }
+  .chakra-card-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Roboto'; */
+font-style: normal;
+  }
+  
