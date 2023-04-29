@@ -7,6 +7,8 @@ import privateconfidential from '../assets/privateconfidential.png'
 import refund from '../assets/refund.png'
 import verified from '../assets/verified.png'
 import securepayment from '../assets/securepayment.png'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const Main = () => {
     return (
@@ -54,3 +56,4 @@ const Main = () => {
 }
 
 export default Main
+
